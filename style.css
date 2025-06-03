@@ -128,3 +128,15 @@ body {
 .Streamplan_Element_Link {
   color: white;
 }
+
+@media screen and (max-width: 800px) {
+  .Social_Block {
+    width: 80%;
+    font-size: x-large;
+  }
+
+  .Streamplan {
+    font-size: x-large;
+    width: 80%;
+  }
+}
