@@ -2,8 +2,82 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #efefef;
+  background-image: linear-gradient(#373d43, #24272b);
+}
 
-  background-color: #efefef;
+.Profil {
+  width: 150px;
+  height: 150px;
+
+  background-image: url("./src/PB.jpg");
+
+  border-bottom: 2px solid #efefef;
+  border-radius: 100%;
+}
+
+.Social_Block {
+  width: 50%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Social_Button_Left {
+  width: 20%;
+  height: 100%;
+  background-image: linear-gradient(#4c68d5, #3454d1);
+
+  text-align: center;
+  align-content: center;
+
+  border-bottom: 2px solid #92a2e0;
+
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.Social_Button {
+  width: 20%;
+  height: 100%;
+  background-image: linear-gradient(#4c68d5, #3454d1);
+
+  text-align: center;
+  align-content: center;
+
+  border-bottom: 2px solid #92a2e0;
+}
+
+.Social_Button_Right {
+  width: 20%;
+  height: 100%;
+  background-image: linear-gradient(#4c68d5, #3454d1);
+
+  text-align: center;
+  align-content: center;
+
+  border-bottom: 2px solid #92a2e0;
+
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Social_Button_Left:hover {
+  background-image: linear-gradient(#19308b, #06185e);
+  border-color: white;
+}
+
+.Social_Button:hover {
+  background-image: linear-gradient(#19308b, #06185e);
+  border-color: white;
+}
+
+.Social_Button_Right:hover {
+  background-image: linear-gradient(#19308b, #06185e);
+  border-color: white;
 }
 
 .Streamplan {
@@ -29,10 +103,9 @@ body {
   justify-content: space-evenly;
   margin-top: 10px;
 
-  color: #efefef;
   background-image: linear-gradient(#4c68d5, #3454d1);
 
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #92a2e0;
   border-radius: 10px;
 }
 
