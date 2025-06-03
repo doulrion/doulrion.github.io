@@ -129,10 +129,10 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media (orientation: portrait) {
   .Social_Block {
-    width: 80%;
     font-size: x-large;
+    width: 80%;
   }
 
   .Streamplan {
