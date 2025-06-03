@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #efefef;
+}
+
+.Streamplan {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+.Streamplan_Header {
+  text-align: center;
+}
+
+.Streamplan_Element {
+  width: 90%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+
+  color: #efefef;
+  background-image: linear-gradient(#4c68d5, #3454d1);
+
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+}
+
+.Streamplan_Element_Day {
+  width: 30%;
+  text-align: center;
+}
+
+.Streamplan_Element_Content {
+  width: 30%;
+
+  text-align: center;
+}
+
+.Streamplan_Element_Time {
+  width: 30%;
+  text-align: center;
+}
+
+.Streamplan_Element_Link {
+  color: white;
+}
