@@ -16,6 +16,12 @@ body {
   border-radius: 100%;
 }
 
+.Profil:hover {
+  border-style: solid;
+  border-color: #6a1fff;
+  border-width: 2px;
+}
+
 .Social_Block {
   width: 50%;
   height: 50px;

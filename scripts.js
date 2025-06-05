@@ -13,3 +13,6 @@ function openTwitter() {
 function openInsta() {
   open("https://www.instagram.com/doulrion", "_blank");
 }
+function openTiktok() {
+  open("https://www.tiktok.com/@doulrion?_t=ZN-8wwtQMkB3bu&_r=1", "_blank");
+}
