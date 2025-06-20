@@ -2,8 +2,12 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #efefef;
+  color: #0e1012;
   background-image: linear-gradient(#4b5157, #0e1012);
+}
+
+h1 {
+  color: #efefef;
 }
 
 .Profil {
@@ -37,6 +41,7 @@ body {
   height: 100%;
   background-image: linear-gradient(#17ded0, #19b5a0);
 
+  font-weight: bold;
   text-align: center;
   align-content: center;
 
@@ -51,6 +56,7 @@ body {
   height: 100%;
   background-image: linear-gradient(#17ded0, #19b5a0);
 
+  font-weight: bold;
   text-align: center;
   align-content: center;
 
@@ -62,6 +68,7 @@ body {
   height: 100%;
   background-image: linear-gradient(#17ded0, #19b5a0);
 
+  font-weight: bold;
   text-align: center;
   align-content: center;
 
@@ -74,6 +81,7 @@ body {
 .Social_Button_Left:hover {
   background-image: linear-gradient(#0dbee2, #06596a);
   border-color: white;
+  color: white;
   font-weight: bolder;
   font-size: larger;
 }
@@ -81,6 +89,7 @@ body {
 .Social_Button:hover {
   background-image: linear-gradient(#0dbee2, #06596a);
   border-color: white;
+  color: white;
   font-weight: bolder;
   font-size: larger;
 }
@@ -88,6 +97,7 @@ body {
 .Social_Button_Right:hover {
   background-image: linear-gradient(#0dbee2, #06596a);
   border-color: white;
+  color: white;
   font-weight: bolder;
   font-size: larger;
 }
@@ -103,6 +113,7 @@ body {
 
 .Streamplan_Header {
   text-align: center;
+  color: #efefef;
 }
 
 .Streamplan_Element {
@@ -121,6 +132,50 @@ body {
   border-radius: 10px;
 
   font-weight: bold;
+}
+
+.Streamplan_Element_Live {
+  width: 90%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+
+  background-image: linear-gradient(#17ded0, #19b5a0);
+
+  border-bottom: 2px solid #92a2e0;
+  border-radius: 10px;
+
+  font-weight: bold;
+}
+
+.Streamplan_Element_Gast {
+  width: 90%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+
+  background-image: linear-gradient(#17ded0, #19b5a0);
+
+  border-bottom: 2px solid #92a2e0;
+  border-radius: 10px;
+
+  font-weight: bold;
+}
+
+.Streamplan_Element_Gast:hover {
+  background-image: linear-gradient(#0dbee2, #06596a);
+  border-color: white;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .Streamplan_Element_Day {

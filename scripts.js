@@ -16,3 +16,6 @@ function openInsta() {
 function openTiktok() {
   open("https://www.tiktok.com/@doulrion?_t=ZN-8wwtQMkB3bu&_r=1", "_blank");
 }
+function openPan() {
+  open("https://www.twitch.tv/pandoraflash", "_blank");
+}
